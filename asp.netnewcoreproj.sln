@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-github-workflow-demo", "aspnet-core-github-workflow-demo-main\aspnet-core-github-workflow-demo.csproj", "{EEDF4931-916B-4CE4-B05F-EA660BD8C2DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEDF4931-916B-4CE4-B05F-EA660BD8C2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDF4931-916B-4CE4-B05F-EA660BD8C2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDF4931-916B-4CE4-B05F-EA660BD8C2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDF4931-916B-4CE4-B05F-EA660BD8C2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {390B58ED-2C68-4384-A797-C9D6EE868B99}
+	EndGlobalSection
+EndGlobal
