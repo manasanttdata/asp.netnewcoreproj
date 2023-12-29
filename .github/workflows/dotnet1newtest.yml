@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core app to an Azure Web App
+name: Build and deploy ASP.Net Core app
 
 env:
   DOTNET_VERSION: '6.0.x'                 # set this to the .NET Core version to use
