@@ -6,7 +6,7 @@ env:
 on:
   push:
     branches:
-      - main
+      - UAT_POC_Glife
   workflow_dispatch:
 
 jobs:
@@ -38,5 +38,5 @@ jobs:
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: artifactfile
+          name: artifactfile_UAT
           path: ${{env.DOTNET_ROOT}}/myapp
