@@ -1,4 +1,5 @@
-name: Build and deploy ASP.Net Core app
+# Dev Env for POC (ENv Name - Dev_POC_Glife)
+name: Build and deploy ASP.Net Core app QA branch
 
 env:
   DOTNET_VERSION: '6.0.x'                 # set this to the .NET Core version to use
@@ -6,7 +7,7 @@ env:
 on:
   push:
     branches:
-      - main
+      - QA_POC_Glife
   workflow_dispatch:
 
 jobs:
@@ -38,5 +39,6 @@ jobs:
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: artifactfile
+          name: artifactfile_QA_Test
           path: ${{env.DOTNET_ROOT}}/myapp
+
