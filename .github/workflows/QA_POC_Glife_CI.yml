@@ -39,6 +39,6 @@ jobs:
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: artifactfile_QA
+          name: artifactfile_QA_Test
           path: ${{env.DOTNET_ROOT}}/myapp
 
