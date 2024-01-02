@@ -1,5 +1,5 @@
 # Dev Env for POC (ENv Name - Dev_POC_Glife)
-name: Build and deploy ASP.Net Core app dev branch
+name: Dev_POC_Glife_CI
 
 env:
   DOTNET_VERSION: '6.0.x'                 # set this to the .NET Core version to use
