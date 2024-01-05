@@ -6,8 +6,7 @@ env:
 
 on:
   push:
-    branches:
-      - Dev_POC_Glife
+    branches: ["Dev_POC_Glife"]
   workflow_dispatch:
 
 jobs:
